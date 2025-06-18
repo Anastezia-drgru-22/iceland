@@ -1,0 +1,764 @@
+@media screen and (max-width: 1430px) {
+    .travel .container {
+        overflow: hidden;
+    }
+}
+
+
+@media screen and (max-width: 1229px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .travel-bg-img {
+        left: 15px;
+        width: 100vw;
+    }
+
+    .travel-about {
+        margin-left: 10px;
+    }
+
+    .travel-text-title {
+        color: white;
+    }
+
+    .travel-text-description span {
+        color: rgb(44, 44, 44);
+    }
+
+    .travel-info {
+        position: absolute;
+        left: 580px;
+        z-index: 1;
+    }
+
+}
+
+@media screen and (max-width: 1169px) {
+    .fotogallery-position-1 {
+        left: 2%;
+        top: 50%;
+        height: 190px;
+    }
+
+    .fotogallery-position-2 {
+        top: 20%;
+        left: 48%;
+    }
+
+    .fotogallery-position-3 {
+        top: 62%;
+        left: 41%;
+    }
+
+    .fotogallery-position-4 {
+        left: 67%;
+    }
+
+    .fotogallery-position-5 {
+        top: 0%;
+        left: 13%;
+    }
+}
+
+
+@media screen and (max-width: 1142px) {
+    .why-we-items::before {
+        content: "";
+        top: -75px;
+    }
+
+    .slider-info {
+        grid-column-gap: 153px;
+    }
+}
+
+
+@media screen and (max-width: 1031px) {
+
+    .travel-bg-img {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 620px;
+        background-image: url('../images/main.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .travel-bg-img img {
+        display: none;
+    }
+
+
+    .travel-about {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 120px 0 0 0;
+
+    }
+
+    .travel-text-title {
+        order: 1;
+        margin-bottom: 65px;
+    }
+
+    .travel-text-description {
+        order: 3;
+        margin-bottom: 74px;
+    }
+
+    .travel-text-description span {
+        margin-left: 0;
+    }
+
+    .actions {
+        order: 5;
+        margin-top: 68px;
+    }
+
+    .actions .btn {
+        width: 320px;
+    }
+
+    .travel-info {
+        position: relative;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        order: 4;
+    }
+
+    .travel-video {
+        order: 2;
+        margin-bottom: 310px;
+    }
+
+    .iceland-description .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .iceland-description-img {
+        align-self: center;
+    }
+
+    .iceland-description-title {
+        max-width: 360px;
+        text-align: center;
+    }
+
+    .iceland-description-text {
+        font-size: 16px;
+        color: rgb(255, 255, 255);
+        line-height: 1.438;
+        max-width: 600px;
+        text-align: center;
+    }
+
+    .iceland-uniq-about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+
+    .slick-initialized .slick-slide {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .slider-img-container {
+        order: 3;
+    }
+
+    .slider-info {
+        display: flex;
+        flex-direction: column;
+        max-width: 475px;
+        gap: 25px;
+    }
+
+    .slider-info-day {
+        order: 1;
+    }
+
+    .slider-info-title {
+        order: 2;
+    }
+
+    .slider-info-text {
+        order: 4;
+        margin-bottom: 21px;
+    }
+
+    .programm-tour-slider .arrows {
+        order: 5;
+        margin-bottom: 21px;
+    }
+
+    .slider-info-download {
+        order: 6;
+        align-self: flex-start;
+    }
+
+
+    .reviews-slider {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-sizing: border-box;
+        height: 100%;
+        min-height: 871px;
+    }
+
+    .reviews-slider-text {
+        order: 1;
+        text-align: center;
+    }
+
+    .reviews-slider-img {
+        order: 2;
+        margin-top: 35px;
+    }
+
+    .reviews-arrows {
+        order: 3;
+        margin-top: auto;
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 975px) {
+    .why-we-items::before {
+        content: "";
+        top: -92px;
+        left: -375px; /* Сколько нужно, чтобы вылезло за границы */
+    }
+}
+
+@media screen and (max-width: 943px) {
+    .why-we-items {
+        grid-row-gap: 87px;
+        grid-column-gap: 61px;
+    }
+
+    .why-we-items::before {
+        content: "";
+        top: -95px;
+        left: -365px;
+    }
+
+    .fotogallery-position-1 {
+        left: 7%;
+        top: 50%;
+    }
+
+    .fotogallery-position-2 {
+        display: none !important;
+    }
+
+    .fotogallery-position-3 {
+        display: none !important;
+    }
+
+    .fotogallery-position-4 {
+        left: 57%;
+    }
+
+    .fotogallery-position-5 {
+        top: 1%;
+        left: 17%;
+    }
+}
+
+@media screen and (max-width: 931px) {
+    .why-we-items {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .why-we-items::before {
+        content: "";
+        background-image: url("../images/dottedline-vertical.svg");
+        top: -84px;
+        left: -495px;
+        background-size: cover;
+    }
+
+    .why-we-item-point-bottom {
+        margin-bottom: 25px;
+    }
+
+    .why-we-item-point-top {
+        margin-top: 25px;
+    }
+
+    .why-we-item-1 {
+        margin-bottom: 75px;
+    }
+
+    .why-we-item-4 {
+        margin: 80px 0 20px 0;
+    }
+}
+
+@media screen and (max-width: 867px) {
+    .travel-text-title {
+        text-align: center;
+    }
+
+    .fotogallery-slider {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .fotogallery-position-1 {
+        display: none !important;
+    }
+
+
+    .fotogallery-position-4 {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .fotogallery-position-5 {
+        display: none !important;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+
+    .header .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .iceland-description .container {
+        max-width: 600px;
+    }
+
+    .iceland-description-img {
+        align-self: flex-start;
+    }
+
+    .iceland-description-text {
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 562px) {
+    .travel-text-description {
+        text-align: center;
+        line-height: 1;
+    }
+}
+
+@media screen and (max-width: 542px) {
+    .header .container {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .menu {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        top: 0;
+        left: 0;
+        background: rgba(44, 44, 44, 0.85);
+    }
+
+    .menu ul {
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 0 auto;
+    }
+
+    .menu ul li a {
+        font-size: 18px;
+        color: white;
+    }
+
+    .burger {
+        display: block;
+
+    }
+
+    .burger svg {
+        fill: #2c2c2c;
+        width: 30px;
+        height: 30px;
+    }
+
+    .menu.open {
+        display: flex;
+        align-items: center;
+        z-index: 10;
+    }
+
+    .menu .close {
+        display: block;
+        width: 24px;
+        height: 24px;
+        fill: white;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+
+    .footer .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 25px;
+    }
+
+    .travel-text-title {
+        font-size: 50px
+    }
+
+    .travel-info-item-3 {
+        width: 107px;
+        top: -75px;
+    }
+
+    .travel-info {
+        margin-right: calc(30px + (100vw - 30px) * 0.1);
+    }
+
+
+    .iceland-description-img {
+        width: calc(230px + (400 - 230) * ((100vw - 320px) / (542 - 320)));
+        height: calc(260px + (450 - 260) * ((100vw - 320px) / (542 - 320)));
+        padding-left: 25px;
+    }
+
+    .iceland-description-img img {
+        max-width: calc(100% + 58px);
+    }
+
+
+    .iceland-uniq-img {
+        max-width: 100%;
+    }
+
+
+    .iceland-uniq-img img {
+        max-width: 100%;
+    }
+
+    .slider-info {
+        width: 100%;
+    }
+
+    .slider-info-text {
+        max-width: 475px;
+    }
+
+    .slider-img {
+        width: calc(244px + (400 - 244) * ((100vw - 320px) / (542 - 320)));
+        height: calc(276px + (450 - 274) * ((100vw - 320px) / (542 - 320)));
+
+    }
+
+    .slider-img img {
+        width: calc(244px + (400 - 244) * ((100vw - 320px) / (542 - 320)));
+        height: calc(232px + (380 - 232) * ((100vw - 320px) / (542 - 320)));
+    }
+
+    .reviews-slider-img img {
+        max-width: 100%;
+        height: 100%;
+    }
+
+}
+
+
+@media screen and (max-width: 424px) {
+
+    .travel-info {
+        align-self: center;
+    }
+
+    .travel-info img {
+        width: 226px;
+        height: 115px;
+    }
+
+    .iceland-description-img {
+        max-width: 100%;
+    }
+
+    .iceland-uniq-info-img {
+        width: calc(237px + (336 - 237) * ((100vw - 320px) / (424 - 320)));
+    }
+
+    .reviews-slider {
+        min-height: 820px;
+    }
+
+    .reviews-slider-text {
+        text-align: left;
+    }
+
+    .reviews-arrows {
+        align-self: flex-start;
+    }
+
+    .reviews-slider {
+        padding: 40px 15px;
+    }
+
+    .slider-img img {
+        margin: 21px 0 21px 46px;
+    }
+}
+
+
+@media screen and (max-width: 374px) {
+
+    .radio-group {
+        gap: 13px;
+    }
+
+    .radio-group label {
+        width: 30px;
+        height: 30px;
+    }
+
+
+    .input-text, .btn-form {
+        width: 290px;
+    }
+
+    .travel-about {
+        padding-top: 55px;
+        grid-row-gap: 0;
+
+    }
+
+    .travel-text-title {
+        font-size: 30px;
+        margin-bottom: 33px;
+        line-height: 1.067;
+    }
+
+    .travel-bg-img {
+        height: 481px;
+        background-image: url('../images/main-mobile.png');
+        background-position: top;
+    }
+
+    .travel-video {
+        margin-bottom: 365px;
+    }
+
+    .travel-video a {
+        font-size: 15px;
+    }
+
+    .travel-video a svg {
+        width: 40px;
+        height: 40px;
+    }
+
+    .travel-text-description {
+        font-size: 20px;
+        max-width: 171px;
+        margin-bottom: 110px;
+    }
+
+    .actions .btn {
+        width: 220px;
+    }
+
+    .actions {
+        margin-top: 105px;
+    }
+
+    .iceland-description {
+        padding: 80px 0 50px 0;
+    }
+
+    .iceland-description-title {
+        font-size: 25px;
+    }
+
+    .iceland-description-text {
+        font-size: 14px;
+    }
+
+    .why-we {
+        padding: 50px 0 50px 0;
+    }
+
+    .why-we-items::before {
+        content: "";
+        top: 0;
+        left: -520px;
+        background-size: cover;
+    }
+
+    .why-we-title {
+        font-size: 25px;
+        max-width: 255px;
+    }
+
+    .why-we-item {
+        max-width: 241px;
+    }
+
+    .why-we-items::before {
+        top: -84px;
+        left: -495px;
+    }
+
+    .iceland-uniq {
+        padding: 50px 0 100px 0;
+    }
+
+    .iceland-uniq-info {
+        gap: 40px;
+    }
+
+    .iceland-uniq-title {
+        font-size: 25px;
+    }
+
+    .iceland-uniq-info p {
+        font-size: 14px;
+    }
+
+    .iceland-video {
+        background-image: url('../images/icelandvideo-mobile.png');
+        background-size: cover;
+        background-position: center;
+        padding: 111px 0 111px 0;
+    }
+
+    .iceland-video a span {
+        font-size: 14px;
+        max-width: 166px;
+    }
+
+    .iceland-video a svg {
+        width: 45px;
+        height: 45px;
+    }
+
+    .programm-tour {
+        padding: 80px 0 50px 0;
+    }
+
+    .programm-tour-title {
+        margin-bottom: 40px;
+        font-size: 25px;
+    }
+
+    .slider-info-day {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .slider-info-day span {
+        font-size: 14px;
+    }
+
+    .slider-info-title {
+        font-size: 20px;
+    }
+
+    .slider-info-text {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+    .programm-tour-slider .arrows {
+        order: 5;
+        margin-bottom: 15px;
+    }
+
+    .reviews {
+        padding: 50px 0 40px 0;
+    }
+
+    .reviews-title {
+        font-size: 25px;
+        margin-bottom: 40px;
+    }
+
+    .reviews-slider {
+        min-height: 770px;
+    }
+
+    .reviews-slider-text h3 {
+        margin-bottom: 30px;
+    }
+
+    .reviews-slider-text h4 {
+        margin-bottom: 30px;
+    }
+
+    .reviews-slider-text p {
+        font-size: 14px;
+    }
+
+    .reviews-slider-img {
+        margin-top: 24px;
+    }
+
+    .fotogallery {
+        padding: 40px 0 80px 0;
+    }
+
+    .fotogallery-title {
+        font-size: 25px;
+        margin-bottom: 35px;
+    }
+
+}
+
+
+
+
+
